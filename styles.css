@@ -1,0 +1,50 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+  }
+  
+
+  h1 {
+    text-align: center;
+    background-color: purple;
+    color: goldenrod;
+    margin: 0%;
+    padding: 30px;
+    border: solid;
+  }
+  
+  #parametros {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: purple;
+    color: goldenrod;
+    padding: 20px;
+    border: solid;
+    border-bottom-style: double;
+  }
+  
+  #preguntas {
+    margin-bottom: 10px;
+  }
+
+  #pregunta{
+    color: purple;
+  }
+  
+  #puntaje {
+    text-align: center;
+  }
+
+  #enviarRespuestas{
+    background-color: purple;
+    color: goldenrod;
+    font-size: larger;
+  }
+  
+  #nuevaTrivia {
+    margin-top: 10px;
+    background-color: purple;
+    color: goldenrod;
+    font-size: larger;
+  }
+  

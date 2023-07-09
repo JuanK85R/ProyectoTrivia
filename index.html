@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Trivia API</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+   
+        <h1>GENERADOR DE TRIVIAS</h1>   
+
+  <div id="parametros">
+    <label for="dificultad">Dificultad:</label>
+    <select id="dificultad">    
+      <option value="easy">Fácil</option>
+      <option value="medium">Medio</option>
+      <option value="hard">Difícil</option>
+    </select>
+
+    <label for="tipo">Tipo de respuesta:</label>
+    <select id="tipo">
+      <option value="multiple">Múltiple</option>
+      <option value="boolean">Verdadero/Falso</option>
+    </select>
+
+    <label for="categoria">Categoría:</label>
+    <select id="categoria">
+      <option value="10">Libros</option>
+      <option value="11">Películas</option>
+      <option value="12">Musica</option>
+      <option value="15">Video Juegos</option>
+      <option value="20">Mitologia</option>
+      <option value="21">Deporte</option>
+      <option value="22">Geografia</option>
+      <option value="29">Comics</option>
+      <option value="31">Anime</option>
+      <option value="32">Dibujos animados</option>
+
+    </select>
+
+    <button id="generarTrivia">Generar Trivia</button>
+  </div>
+
+  <div id="trivia" style="display: none;">
+    <h2>Preguntas:</h2>
+    <div id="preguntas"></div>
+    
+    <button id="enviarRespuestas">Responder trivia</button>
+  </div>
+
+  <div id="puntaje" style="display: none;">
+    <h2>Tu puntaje:</h2>
+    <p id="valorPuntuacion"></p>
+    <h2>Respuestas correctas:</h2>
+    <div id="respuestasCorrectas"></div>
+    <button id="nuevaTrivia">Nueva Trivia</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
